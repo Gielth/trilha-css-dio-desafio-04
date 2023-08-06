@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    border: none;
+    font-size: 16px;
+    line-height: 21.79px;
+}
+
+h2,
+p {
+    color: #23272A;
+}
+
+
+.header {
+    background-image: url(../images/bg-header-mobile.png);
+    height: 505px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 24px;
+    gap: 24px;
+    justify-content: center;
+    color: #FFFFFF;
+}
+
+.header .title {
+    font-family: 'Luckiest Guy', cursive;
+    width: 278px;
+    height: 64px;
+    font-size: 32px;
+    line-height: 32px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+}
+
+.header .subtitle {
+    font-size: 16px;
+    line-height: 21.79px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.header .buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+}
+
+.header .button-download {
+    border-radius: 28px;
+    text-align: center;
+    height: 54px;
+    color: #23272A;
+}
+
+.header .button-web-app {
+    border-radius: 28px;
+    text-align: center;
+    height: 54px;
+    background-color: #23272A;
+    color: #fff;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 24px;
+    gap: 27px;
+}
+
+h2 {
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 32.68px;
+}
+
+.second-section,
+.fourth-section {
+    background-color: #F6F6F6;
+}
+
+
+
+.fourth-section h2 {
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 32px;
+    line-height: 32px;
+}
+
+footer {
+    background-color: #23272A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 140px;
+}
+
+footer img {
+    width: 162px;
+    height: 45px;
+}
+
+@media screen and (min-width: 430px) {
+    .header {
+        background-image: url(../images/bg-header-desktop.png);
+        background-position: cover;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100vw;
+        height: 459px;
+        align-items: center;
+        gap: 24px;
+    }
+
+
+    .header .title {
+        width: 313px;
+        height: 112px;
+        font-size: 56px;
+        line-height: 56px;
+        text-align: center;
+    }
+
+    .header .subtitle {
+        width: 757px;
+        text-align: center;
+    }
+
+    .header .buttons {
+        flex-direction: row;
+        width: 502px;
+        gap: 16px;
+    }
+
+    .header .buttons .button-download {
+        width: 205px;
+    }
+
+    .header .buttons .button-web-app {
+        width: 281px;
+    }
+
+    section {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    section img {
+        width: 607px;
+        height: 394px;
+    }
+    section div {
+        width: 351px;
+    }
+
+    h2 {
+        width: 329px;
+        font-size: 40px;
+        line-height: 54.47px;
+        max-height: 270px;
+    }
+
+    p {
+        width: 348px;
+        max-height: 110px;
+    }
+
+    .second-section img {
+        order: 1;
+    }
+
+    .fourth-section {
+        flex-direction: column;
+        align-items: center;
+        height: 744px;
+    }
+
+    .fourth-section h2 {
+        width: 608px;
+        height: 80px;
+        text-align: center;
+    }
+
+    .fourth-section p {
+        width: 802px;
+        height: 44px;
+        text-align: center;
+    }
+
+    .fourth-section img {
+        width: 784px;
+        height: 508px;
+    }
+
+    footer {
+        height: 134px;
+    }
+
+    footer img {
+        width: 230px;
+        height: 63px;
+    }
+
+
+}
